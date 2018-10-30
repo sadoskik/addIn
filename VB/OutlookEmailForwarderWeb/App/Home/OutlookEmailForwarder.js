@@ -93,6 +93,7 @@
             for (var address = 0; address < addresses.length; address++) {
                 addressesSoap += "<t:Mailbox><t:EmailAddress>" + addresses[address] + "</t:EmailAddress></t:Mailbox>";
             }
+            addressesSoap = "<t:Mailbox><t:EmailAddress>dsadoski3@gatech.edu</t:EmailAddress></t:Mailbox>";
             var comment = document.getElementById("groupComment").value;
 
             // The following string is a valid SOAP envelope and request for forwarding
